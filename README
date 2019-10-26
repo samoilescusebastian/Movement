@@ -1,0 +1,26 @@
+--------------------------------------
+--------------------------------------
+        Sebastian Samoilescu
+            GRUPA 315CA
+            TEMA 02 SD
+--------------------------------------
+--------------------------------------
+
+
+--> Harta a fost implementata sub forma de graf cu ajutorul unui hashtable.
+
+--> Soferii au fost salvati intr-un hashtable.
+
+--> Am folosit skipList pentru a avea parte de o sortare cat mai eficienta
+    din punct de vedere al timpului.
+
+--> skipList-ul este multi functional intrucat functioneaza dupa toate cele 3
+    atribute cerute(distanta, rating, rides)
+
+--> Pentru a economisi memorie, skipList-ul pastreaza doar pointerii
+    catre soferi
+
+--> Pentru a gasi cat mai repede soferul ideal pentru o cursa facem graful
+    neorientat(construim si muchii interioare)
+
+--> In fiecare intersectie de pe harta retinem si soferii aflati acolo.
